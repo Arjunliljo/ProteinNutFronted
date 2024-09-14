@@ -1,0 +1,31 @@
+.headerText {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  flex: 1;
+}
+.headerLinks {
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.headerLinks:hover {
+  transform: scale(1.1) rotate(-8deg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: var(--white);
+}
+.headerLinks:active {
+  transform: scale(1) rotate(0deg);
+  box-shadow: none;
+}
+
+.headerRight {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
